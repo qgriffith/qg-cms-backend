@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_resume_footer_links",
+  "info": {
+    "displayName": "footerLinks",
+    "icon": "star"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    }
+  }
+}

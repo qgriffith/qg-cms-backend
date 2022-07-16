@@ -2,13 +2,17 @@
   "collectionName": "components_sections_heroes",
   "info": {
     "displayName": "Hero",
-    "icon": "heading"
+    "icon": "heading",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string",
       "required": true
+    },
+    "subtitle": {
+      "type": "string"
     }
   }
 }
