@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_strava_stats",
+  "info": {
+    "displayName": "stats"
+  },
+  "options": {},
+  "attributes": {
+    "profile": {
+      "type": "string"
+    },
+    "ytdRun": {
+      "type": "string"
+    },
+    "ytdMiles": {
+      "type": "string"
+    },
+    "mntRun": {
+      "type": "string"
+    },
+    "mntMiles": {
+      "type": "string"
+    }
+  }
+}

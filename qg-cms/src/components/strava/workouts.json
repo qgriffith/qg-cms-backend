@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_strava_workouts",
+  "info": {
+    "displayName": "workouts",
+    "icon": "user-plus"
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "time": {
+      "type": "string"
+    },
+    "distance": {
+      "type": "string"
+    },
+    "pace": {
+      "type": "string"
+    },
+    "avgSpeed": {
+      "type": "string"
+    },
+    "maxSpeed": {
+      "type": "string"
+    }
+  }
+}

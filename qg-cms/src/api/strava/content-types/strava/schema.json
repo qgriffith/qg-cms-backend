@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "stravas",
+  "info": {
+    "singularName": "strava",
+    "pluralName": "stravas",
+    "displayName": "strava"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "stats": {
+      "displayName": "stats",
+      "type": "component",
+      "repeatable": false,
+      "component": "strava.stats"
+    },
+    "workouts": {
+      "displayName": "workouts",
+      "type": "component",
+      "repeatable": true,
+      "component": "strava.workouts"
+    }
+  }
+}
