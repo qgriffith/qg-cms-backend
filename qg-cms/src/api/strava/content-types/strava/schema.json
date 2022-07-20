@@ -4,7 +4,8 @@
   "info": {
     "singularName": "strava",
     "pluralName": "stravas",
-    "displayName": "strava"
+    "displayName": "Strava",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -17,11 +18,12 @@
       "component": "sections.hero"
     },
     "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "stats": {
       "displayName": "stats",
