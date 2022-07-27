@@ -4,10 +4,11 @@
   "info": {
     "singularName": "writer",
     "pluralName": "writers",
-    "displayName": "Writer"
+    "displayName": "Writer",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": false
+    "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
@@ -15,12 +16,13 @@
       "type": "string",
       "required": true
     },
-    "picture": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "email": {
       "type": "email",
