@@ -2,7 +2,7 @@ services:
   - type: web
     name: strapi
     env: node
-    plan: starter
+    plan: starter plus
     buildCommand: cd qg-cms/ && npm install && npm run build
     startCommand: cd qg-cms/ && npm start
     healthCheckPath: /_health
@@ -26,6 +26,8 @@ services:
       - key: ADMIN_JWT_SECRET
         generateValue: true
       - key: APP_KEYS
+        generateValue: true
+      - key: API_TOKEN_SALT
         generateValue: true
 
 databases:
