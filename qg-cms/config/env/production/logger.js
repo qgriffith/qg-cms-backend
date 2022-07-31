@@ -8,5 +8,5 @@ module.exports = {
       level: "error",
     }),
   ],
-};
-Footer
+}
+
