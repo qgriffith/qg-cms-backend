@@ -1,8 +1,8 @@
 {
   "name": "qg-cms",
   "private": true,
-  "version": "0.1.0",
-  "description": "A Strapi application",
+  "version": "1.0.0",
+  "description": "A Strapi application for qg-cms",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -19,12 +19,10 @@
     "better-sqlite3": "7.4.6",
     "pg": "^8.7.3",
     "pg-connection-string": "^2.5.0",
-    "slugify": "^1.6.5",
-    "strapi-plugin-populate-deep": "^0.1.2",
-    "yarn": "^1.22.19"
+    "slugify": "^1.6.5"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Quenten Griffith"
   },
   "strapi": {
     "uuid": "87942f77-a577-47a9-ab52-f3602cce96c7"
