@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * nav router.
+ * navbar router.
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::nav.nav');
+module.exports = createCoreRouter('api::navbar.navbar');
