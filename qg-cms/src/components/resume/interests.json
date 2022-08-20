@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_resume_interests",
+  "info": {
+    "displayName": "interests",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

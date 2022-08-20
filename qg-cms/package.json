@@ -1,7 +1,7 @@
 {
   "name": "qg-cms",
   "private": true,
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "A Strapi application for qg-cms",
   "scripts": {
     "develop": "strapi develop",
