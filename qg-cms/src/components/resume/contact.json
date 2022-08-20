@@ -1,26 +1,27 @@
 {
-  "collectionName": "components_sections_addresses",
+  "collectionName": "components_resume_contacts",
   "info": {
     "displayName": "contact",
-    "icon": "address-book",
+    "icon": "atlas",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "number": {
-      "type": "string",
-      "required": true
-    },
     "email": {
       "type": "email",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
       "required": true
     },
     "location": {
       "type": "string",
       "required": true
     },
-    "url": {
-      "type": "string"
+    "linkedin": {
+      "type": "string",
+      "required": true
     }
   }
 }

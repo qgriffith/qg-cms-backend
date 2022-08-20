@@ -14,14 +14,8 @@
   "attributes": {
     "hero": {
       "type": "component",
-      "repeatable": true,
-      "component": "sections.hero"
-    },
-    "contact": {
-      "displayName": "address",
-      "type": "component",
       "repeatable": false,
-      "component": "sections.address"
+      "component": "sections.hero"
     },
     "description": {
       "type": "richtext",
@@ -35,23 +29,29 @@
         "images"
       ]
     },
-    "skills": {
-      "type": "richtext"
-    },
-    "interests": {
-      "type": "richtext"
-    },
     "experience": {
       "displayName": "experience",
       "type": "component",
       "repeatable": true,
       "component": "resume.experience"
     },
-    "links": {
-      "displayName": "footerLinks",
+    "skills": {
+      "displayName": "skills",
       "type": "component",
       "repeatable": true,
-      "component": "resume.footer-links"
+      "component": "resume.skills"
+    },
+    "interests": {
+      "displayName": "interests",
+      "type": "component",
+      "repeatable": true,
+      "component": "resume.interests"
+    },
+    "contact": {
+      "displayName": "contact",
+      "type": "component",
+      "repeatable": false,
+      "component": "resume.contact"
     }
   }
 }
